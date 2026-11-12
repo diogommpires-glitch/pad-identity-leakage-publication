@@ -1,0 +1,9 @@
+# Offline synthetic regressions, Python 3.11.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.13.0+cpu
+numpy==2.2.6
+PyYAML==6.0.3
+scikit-learn==1.7.2
+opencv-python==4.13.0.92
+pillow==13.0.0
+pytest==9.0.3

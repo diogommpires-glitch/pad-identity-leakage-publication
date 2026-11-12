@@ -1,0 +1,26 @@
+# Keep external records, credentials and generated research outputs private.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+__pycache__/
+*.py[cod]
+.venv*/
+.pytest_cache/
+.ruff_cache/
+/reports/
+/calibration/
+/faces/
+/sessions/
+*.log
+*.pth
+*.pt
+
+/scores/
+/splits/
+/results/
+/audit_pools/
+*.zip
